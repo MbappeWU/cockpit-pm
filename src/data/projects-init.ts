@@ -1,0 +1,28 @@
+import type { VehicleProject } from '../types/project';
+
+export const PROJECTS_INIT: VehicleProject[] = [
+  { id:"p1",  vehicleCode:"H97F",       platform:"鸿蒙", difficulty:"C", upl:"刘冰", ste:"", year:2026, milestones:[{month:7,type:"OTA"},{month:8,type:"OTA"},{month:9,type:"OTA"},{month:10,type:"OTA"},{month:11,type:"OTA"},{month:12,type:"OTA"}], status:"active", notes:"" },
+  { id:"p2",  vehicleCode:"H97F",       platform:"VCOS", difficulty:"C", upl:"",     ste:"", year:2026, milestones:[{month:12,type:"OTA"}], status:"active", notes:"待定" },
+  { id:"p3",  vehicleCode:"H67(H97N)",  platform:"鸿蒙", difficulty:"C", upl:"刘冰", ste:"", year:2026, milestones:[{month:4,type:"SOP"},{month:5,type:"J5"},{month:6,type:"J6"},{month:7,type:"SOP+OTA"},{month:8,type:"OTA"},{month:9,type:"OTA"},{month:10,type:"OTA"},{month:11,type:"OTA"},{month:12,type:"OTA"}], status:"active", notes:"" },
+  { id:"p4",  vehicleCode:"H66(H56N)",  platform:"鸿蒙", difficulty:"C", upl:"",     ste:"", year:2026, milestones:[{month:4,type:"J4"},{month:5,type:"J5"},{month:6,type:"J6"},{month:7,type:"SOP+OTA"}], status:"active", notes:"" },
+  { id:"p5",  vehicleCode:"H56E",       platform:"鸿蒙", difficulty:"B", upl:"",     ste:"", year:2026, milestones:[{month:7,type:"PVS"},{month:8,type:"PT"},{month:9,type:"ME+01"},{month:10,type:"OTA"},{month:11,type:"OTA"}], status:"active", notes:"" },
+  { id:"p6",  vehicleCode:"H53B",       platform:"鸿蒙", difficulty:"B", upl:"",     ste:"", year:2026, milestones:[{month:7,type:"OTA"},{month:8,type:"OTA"},{month:9,type:"OTA"},{month:10,type:"OTA"},{month:11,type:"OTA"},{month:12,type:"OTA"}], status:"active", notes:"" },
+  { id:"p7",  vehicleCode:"H47(H37N)",  platform:"鸿蒙", difficulty:"C", upl:"",     ste:"", year:2026, milestones:[{month:5,type:"J5"},{month:6,type:"J6"},{month:7,type:"SOP"}], status:"active", notes:"" },
+  { id:"p8",  vehicleCode:"H47(H37N)",  platform:"VCOS", difficulty:"A", upl:"丁磊", ste:"", year:2026, milestones:[{month:5,type:"J5"},{month:6,type:"J6"},{month:7,type:"SOP"},{month:8,type:"OTA"},{month:9,type:"OTA"},{month:10,type:"OTA"}], status:"active", notes:"新车型, 2026唯一A级" },
+  { id:"p9",  vehicleCode:"H77AZ",      platform:"VCOS", difficulty:"B", upl:"易休", ste:"", year:2026, milestones:[{month:5,type:"J5"}], status:"active", notes:"J7(中东版)" },
+  { id:"p10", vehicleCode:"H56DZ",      platform:"VCOS", difficulty:"B", upl:"易休", ste:"", year:2026, milestones:[{month:5,type:"J5"},{month:6,type:"J6"},{month:7,type:"J7"},{month:8,type:"OTA"}], status:"active", notes:"中东版" },
+  { id:"p11", vehicleCode:"H56EZ",      platform:"VCOS", difficulty:"B", upl:"柳林", ste:"", year:2026, milestones:[{month:12,type:"J7"}], status:"active", notes:"" },
+  { id:"p12", vehicleCode:"V57",        platform:"鸿蒙", difficulty:"A", upl:"",     ste:"", year:2026, milestones:[], status:"unstarted", notes:"待定" },
+  { id:"p13", vehicleCode:"V57",        platform:"VCOS", difficulty:"B", upl:"",     ste:"", year:2026, milestones:[], status:"unstarted", notes:"待定" },
+  { id:"p14", vehicleCode:"H37C",       platform:"鸿蒙", difficulty:"C", upl:"",     ste:"", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p15", vehicleCode:"H77A",       platform:"鸿蒙", difficulty:"B", upl:"",     ste:"", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p16", vehicleCode:"H56C",       platform:"VCOS", difficulty:"D", upl:"刘启辉",ste:"鞠华玮", year:2026, milestones:[], status:"active", notes:"维护车型" },
+  { id:"p17", vehicleCode:"H56D",       platform:"VCOS", difficulty:"D", upl:"刘启辉",ste:"鞠华玮", year:2026, milestones:[], status:"active", notes:"维护车型" },
+  { id:"p18", vehicleCode:"H37A",       platform:"VCOS", difficulty:"D", upl:"丁磊", ste:"", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p19", vehicleCode:"H97AB",      platform:"博泰", difficulty:"E", upl:"张博", ste:"", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p20", vehicleCode:"H97CD",      platform:"博泰", difficulty:"E", upl:"张博", ste:"", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p21", vehicleCode:"H56AB",      platform:"博泰", difficulty:"E", upl:"刘冰", ste:"", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p22", vehicleCode:"H53A",       platform:"8155", difficulty:"E", upl:"罗宽", ste:"", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p23", vehicleCode:"H37Z",       platform:"VCOS", difficulty:"E", upl:"易休", ste:"李富豪", year:2026, milestones:[], status:"active", notes:"" },
+  { id:"p24", vehicleCode:"H37AY",      platform:"VCOS", difficulty:"E", upl:"易休", ste:"李富豪", year:2026, milestones:[], status:"active", notes:"" },
+];

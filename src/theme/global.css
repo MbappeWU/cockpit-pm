@@ -1,0 +1,98 @@
+@import './tokens.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-size: 13px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── App Shell: responsive layout ─── */
+.app-shell {
+  display: flex;
+  height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  overflow-y: auto;
+  padding: clamp(12px, 2vw, 32px);
+  min-width: 0; /* prevent flex child overflow */
+}
+
+.app-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-elevated);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Reset */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* ─── Responsive breakpoints ─── */
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+  .app-main {
+    padding: 16px;
+  }
+}
+
+/* Small tablets */
+@media (max-width: 768px) {
+  .app-shell {
+    flex-direction: column;
+  }
+
+  .app-main {
+    padding: 12px;
+  }
+}
